@@ -113,7 +113,7 @@ width: 377px;
   font-weight: bold;
 }
 
-.grid h4, .grid h5, grid h6 {
+.grid h4, .grid h5, .grid h6 {
   line-height: 21px;
   font-size: 14px;
   padding-bottom: 14px;
@@ -124,11 +124,6 @@ small
 display: none;
 }
 
-
-.delicious-timestamp 
-{
-display: none;
-}
 
 a {
 text-decoration: none;
@@ -228,28 +223,6 @@ padding-bottom: 21px;
 margin-bottom: 21px;
 }
 
-/* --- Single page - not really using this  --- */
-
-
-.post li 
-{
-border-bottom:  0px white solid;
-list-style: inside ;
-margin-bottom: 7px;
-line-height: 14px;
-padding-bottom: 7px;  
-}
-
-.narrowcolumn
-{
-padding-right: 40px;  
-}
-
-/* --- Remove delicious sponsor link --- */
-
-.grid-c4 li:first-child {
-display: none;
-}
 
 /* --- Pinboard styling --- */
 
