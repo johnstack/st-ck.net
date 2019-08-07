@@ -23,7 +23,7 @@ body {
   background: white;
   color: #002118; 
   padding-left: 20px;
-  /* border-top: 6px solid #002118; */
+  border-top: 6px solid #002118; 
 }
 
 .grid {
