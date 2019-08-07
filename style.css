@@ -34,9 +34,9 @@ padding-top: 10px;
 transform: perspective(150em) rotateY(35deg); 
 }
 
-@ media screen and (max-width: 980px) {
+@media screen and (max-width: 800px) {
 .grid {
-transform: perspective(150em) rotateY(0deg); 
+transform: perspective(0em) rotateY(20deg); 
 }
 }
 
