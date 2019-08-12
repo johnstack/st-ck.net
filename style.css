@@ -36,6 +36,7 @@ body {
 @media screen and (max-width: 800px) {
   .grid {
     transform: perspective(0em) rotateY(20deg); 
+    transform: skew(0deg, -5deg);
   }
 }
 
