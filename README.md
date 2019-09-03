@@ -1,5 +1,5 @@
 # st-ck.net
 
-My personal website.
+My website.
 
-Visit it at http://st-ck.net
+http://st-ck.net
