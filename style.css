@@ -15,10 +15,17 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
+@font-face {
+     font-family: IBMPlexSans;
+     src: url(IBMPlexSans-Medium.woff) format("woff");
+     font-weight: 100;
+     font-style: normal;
+     }
+
 
 body {
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
   text-align: left;
   background: white;
   color: #002118; 
