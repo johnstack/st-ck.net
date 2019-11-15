@@ -15,17 +15,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-@font-face {
-     font-family: 'IBM Plex Sans';
-     src: url(IBMPlexSans-Medium.woff) format("woff");
-     font-weight: 300;
-     font-style: normal;
-     }
-
-
 body {
   text-align: center;
-  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: Helvetica, Arial, sans-serif; 
   text-align: left;
   background: white;
   color: #002118; 
