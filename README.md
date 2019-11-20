@@ -1,5 +1,5 @@
 # st-ck.net
 
-My website.
+My website. All about me!
 
-http://st-ck.net
+https://st-ck.net
