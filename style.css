@@ -44,6 +44,36 @@ body {
   }
 }
 
+@media screen and (min-width: 1900px) {
+  .grid {
+   margin-left:300px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .grid {
+   margin-left:400px;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .grid {
+   margin-left:500px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .grid {
+   margin-left:600px;
+  }
+}
+
+@media screen and (min-width: 2700px) {
+  .grid {
+   margin-left:700px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .grid {
     transform: perspective(0em) rotateY(20deg); 
