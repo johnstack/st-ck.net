@@ -211,11 +211,11 @@ a {
 
 h1 a 
 {
-color: #002118;
+  color: #002118;
 }
 
-h3 a {
-color: black;	
+.portfolio_panel a {
+  color: black;	
 }
 
 li 
