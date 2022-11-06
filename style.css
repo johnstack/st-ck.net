@@ -201,8 +201,12 @@ a {
   color: #00acac;
 }
 
-h2 a {
+.grid-c5 a {
   color: #002118;
+}
+
+.grid-c5 a {
+  color: black;
 }
 
 h1 a 
