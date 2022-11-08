@@ -102,23 +102,21 @@ body {
   padding-right: 20px
 }
 
-.grid-c2 
-{
+.grid-c2 {
   width: 100%;
 }
 
-.portfolio_panel
-{
+.portfolio_panel {
   width: 230px;
- float: left;
+  float: left;
   padding-left: 0px;
   padding-right: 20px;
   padding-bottom: 20px;
 }
 
 .portfolio_panel img {
-	width: 230px;
-	height: 230px;
+    width: 230px;
+    height: 230px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
@@ -128,11 +126,9 @@ body {
   -webkit-filter: grayscale(0%);
 }
 	
-
 .portfolio_panel h3 {
 	height: 3.3em;
 }
-
 
 .portfolio_panel p {
 	height: 3em;
@@ -172,7 +168,6 @@ body {
   font-weight: bold;
 }
 
-
 .grid-c1 h2 {
   width: 377px;
 }
@@ -195,10 +190,13 @@ small {
   display: none;
 }
 
-
 a {
   text-decoration: none;
   color: #00acac;
+}
+
+.portfolio_panel a:hover {
+    color: 00acac;
 }
 
 .grid-c5 a {
@@ -209,8 +207,7 @@ a {
   color: black;
 }
 
-h1 a 
-{
+h1 a {
   color: #002118;
 }
 
@@ -218,8 +215,7 @@ h1 a
   color: black;	
 }
 
-li 
-{
+li {
   list-style: none;
   border-bottom: 1px #cccccc dotted;
   margin-bottom: 14px;
@@ -261,12 +257,10 @@ ul {
   -webkit-filter: grayscale(0%);
 }
 
-
 .entry {
   margin-bottom: 14px;
   padding-bottom: 114px;
   border-bottom: 1px #ccccccc dotted;
-
 }
 
 a:hover {
