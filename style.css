@@ -154,6 +154,18 @@ body {
   -webkit-filter: grayscale(0%);
 }
 	
+	
+.portfolio_panel video {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    animation: fadeIn 5s;
+}	
+	
+.portfolio_panel video:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}	
+	
 .portfolio_panel h3 {
 	height: 3.3em;
 }
