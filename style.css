@@ -233,9 +233,6 @@ a {
   color: #00acac;
 }
 
-a:hover {
-  cursor: cell; 
-}
 
 .portfolio_panel a:hover {
     color: #00acac;
