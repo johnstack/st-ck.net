@@ -1,0 +1,354 @@
+/* --- CSS Reset --- */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0px;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif; 
+  text-align: left;
+  background: white;
+  color: #002118; 
+  padding-left: 20px;
+  border-top: 6px solid #002118; 
+}
+
+.grid {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+/*
+  transform: perspective(5000px) rotateY(15deg); 
+*/  
+    transform: perspective(5000px) 
+    rotateX(-4deg)
+    rotateY(16deg)
+    rotateZ(0deg);
+  
+}
+
+@media screen and (min-width: 1500px) {
+  .grid {
+   margin-left:100px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .grid {
+   margin-left:200px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .grid {
+   margin-left:300px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  .grid {
+   margin-left:400px;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .grid {
+   margin-left:500px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .grid {
+   margin-left:600px;
+  }
+}
+
+@media screen and (min-width: 2700px) {
+  .grid {
+   margin-left:700px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .grid {
+    transform: perspective(0em) rotateY(20deg); 
+    transform: skew(0deg, -5deg);
+  }
+}
+
+.header { 
+  padding-left: 0 px;
+  padding-bottom: 30px;
+  padding-top: 70px;
+  width: 100%;
+}
+
+.grid-c2, .grid-c3, .grid-c4, .grid-c5, .grid-c6 {
+  width: 230px;
+  float: left;
+  padding-left: 0px;
+  padding-right: 20px
+}
+
+.grid-c2 {
+  width: 100%;
+}
+
+.portfolio_panel {
+  width: 230px;
+  float: left;
+  padding-left: 0px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.portfolio_panel img {
+    width: 230px;
+    height: 230px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.portfolio_panel img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+	
+	
+.portfolio_panel video {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    animation: fadeIn 5s;
+}	
+	
+.portfolio_panel video:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}	
+	
+.portfolio_panel h3 {
+	height: 3.3em;
+}
+
+.portfolio_panel p {
+	height: 3em;
+}
+
+/* --- Typography  --- */
+
+.header li {
+  width: 280px;
+}
+
+.grid p {
+  line-height: 21px;
+  font-size: 14px;
+  padding-bottom: 0px;
+}
+
+.grid li {
+  line-height: 21px;
+  font-size: 14px;
+}
+
+.grid h1 {
+  font-size: 46px;
+  padding-bottom: 21px;
+  color: #002118;
+}
+
+.grid h2 {
+  line-height: 14px;
+  font-size: 21 px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 14px;
+  width: 100%;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.grid-c1 h2 {
+  width: 377px;
+}
+
+.grid h3 {
+  line-height: 21px;
+  font-size: 14px;
+  padding-bottom: 0px;
+  font-weight: bold;
+}
+
+.grid h4, .grid h5, .grid h6 {
+  line-height: 21px;
+  font-size: 14px;
+  padding-bottom: 14px;
+}
+
+small {
+  font-size: 12px;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #00acac;
+}
+
+
+.portfolio_panel a:hover {
+    color: #00acac;
+}
+
+.grid-c5 a {
+  color: #002118;
+}
+
+.grid-c5 a {
+  color: black;
+}
+
+h1 a {
+  color: #002118;
+  text-decoration: underline;
+}
+
+h1 a:hover {
+  color: #00acac;
+  text-decoration: underline;
+}
+
+.portfolio_panel a {
+  color: black;	
+}
+
+li {
+  list-style: none;
+  border-bottom: 1px #cccccc dotted;
+  margin-bottom: 14px;
+  line-height: 21px;
+  padding-bottom: 14px;
+}
+
+.grid-c4 p {
+  border-bottom: 1px #cccccc dotted;
+  margin-bottom: 14px;
+  line-height: 21px;
+  padding-bottom: 14px;
+}
+
+ul {  
+  padding-bottom: 14px;
+}
+
+.grid-c1 img {
+  margin: 0 145px 45px 0;
+}
+
+.grid-c5 img {
+  margin: 0 0 20px 0;
+}
+
+.grid-c1 img {
+  padding: 0 20px 100px 0;
+  float: left;
+}
+
+.grid-c5 img { 
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.grid-c5 img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.entry {
+  margin-bottom: 14px;
+  padding-bottom: 114px;
+  border-bottom: 1px #ccccccc dotted;
+}
+
+a:hover {
+  color: #ee652e;
+}
+
+.rsslink {
+  margin-top: 11px;
+  padding-top: 11px;
+}
+
+.footer {
+  float: left;
+  padding-left: 0px;
+  width: 230px;
+}
+
+.header p {
+  width: 230px; 
+  border-bottom: 1px dotted #cccccc;
+  padding-bottom: 21px;
+  margin-bottom: 21px;
+}
+
+
+/* --- Pinboard styling --- */
+.pin-description {
+  display: none;
+}
+
+a.pin-tag {
+  color: #cccccc;
+}
+
+a:hover.pin-tag  {
+  color: #ee652e;
+}
+
+.pin-tag {
+  display: none
+}
+
+.pin-item br {
+  display: none;
+}
+
