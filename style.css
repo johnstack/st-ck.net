@@ -15,15 +15,20 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
+
 body {
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif; 
+  font-family: Helvetica, "Open Sans", Arial, sans-serif; 
   text-align: left;
   background: white;
   color: #002118; 
   padding-left: 20px;
   border-top: 6px solid #002118; 
-}
+
+  font-weight: 400;
+  font-style: normal;
+  
+  }
 
 .grid {
   text-align: left;
@@ -48,7 +53,7 @@ body {
 
 @media screen and (min-width: 1700px) {
   .grid {
-   margin-top:200px;
+   margin-top:150px;
   }
 }
 
@@ -62,7 +67,7 @@ body {
 
 
 .header { 
-  padding-left: 0 px;
+  padding-left: 50px;
   padding-bottom: 30px;
   padding-top: 70px;
   width: 90%;
@@ -70,8 +75,8 @@ body {
 
 /* --- Typography  --- */
 
-
 .grid h1 {
+  font-weight: 400;
   font-size: 52px;
   padding-bottom: 36px;
   color: #002118;
@@ -88,7 +93,6 @@ a {
   color: #00acac;
 }
 
-
 a:hover {
   color: #ee652e;
 }
@@ -99,6 +103,3 @@ a:hover {
   margin-bottom: 21px;
   max-width: 1500px;
 }
-
-
-
