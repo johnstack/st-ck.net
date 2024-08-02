@@ -39,47 +39,33 @@ body {
   
 }
 
+
 @media screen and (min-width: 1500px) {
   .grid {
-   margin-left:100px;
+   margin-top:100px;
   }
 }
 
 @media screen and (min-width: 1700px) {
   .grid {
-   margin-left:200px;
+   margin-top:200px;
   }
 }
 
 @media screen and (min-width: 1900px) {
   .grid {
-   margin-left:300px;
+   margin-top:300px;
   }
 }
 
 @media screen and (min-width: 2100px) {
   .grid {
-   margin-left:400px;
+   margin-top:350px;
   }
 }
 
-@media screen and (min-width: 2300px) {
-  .grid {
-   margin-left:500px;
-  }
-}
 
-@media screen and (min-width: 2500px) {
-  .grid {
-   margin-left:600px;
-  }
-}
 
-@media screen and (min-width: 2700px) {
-  .grid {
-   margin-left:700px;
-  }
-}
 
 @media screen and (max-width: 800px) {
   .grid {
@@ -87,6 +73,8 @@ body {
     transform: skew(0deg, -5deg);
   }
 }
+
+
 
 .header { 
   padding-left: 0 px;
