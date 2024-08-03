@@ -62,6 +62,7 @@ body {
   .grid {
     transform: perspective(0em) rotateY(20deg); 
     transform: skew(0deg, -5deg);
+    padding-left: 0px;
   }
 }
 
