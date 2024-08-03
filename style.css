@@ -22,7 +22,6 @@ body {
   text-align: left;
   background: white;
   color: #002118; 
-  padding-left: 20px;
   border-top: 6px solid #002118; 
 
   font-weight: 400;
@@ -30,9 +29,15 @@ body {
   
   }
 
+.header { 
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 70px;
+  width: 90%;
+}
+
 .grid {
   text-align: left;
-  padding-left: 20px;
   padding-top: 10px;
 /*
   transform: perspective(5000px) rotateY(15deg); 
@@ -44,17 +49,19 @@ body {
   
 }
 
-
 @media screen and (min-width: 1500px) {
   .grid {
    margin-top:100px;
-  }
+   padding-left: 50px;
+   }
 }
 
 @media screen and (min-width: 1700px) {
   .grid {
    margin-top:150px;
+   padding-left: 50px;
   }
+
 }
 
 
@@ -62,17 +69,16 @@ body {
   .grid {
     transform: perspective(0em) rotateY(20deg); 
     transform: skew(0deg, -5deg);
-    padding-left: 0px;
+    padding-left: 20px;
   }
+  .header { 
+  padding-left: 0px;
+}
+  
 }
 
 
-.header { 
-  padding-left: 50px;
-  padding-bottom: 30px;
-  padding-top: 70px;
-  width: 90%;
-}
+
 
 /* --- Typography  --- */
 
