@@ -34,6 +34,8 @@ body {
   padding-bottom: 30px;
   padding-top: 70px;
   width: 90%;
+    
+      
 }
 
 .grid {
@@ -46,6 +48,8 @@ body {
     rotateX(-12deg)
     rotateY(12deg)
     rotateZ(-12deg);
+    
+	overflow: hidden;
   
 }
 
@@ -87,7 +91,10 @@ body {
   font-size: 52px;
   padding-bottom: 36px;
   color: #002118;
+
+  		
 }
+
 
 .grid p {
   line-height: 36px;
@@ -110,3 +117,5 @@ a:hover {
   margin-bottom: 21px;
   max-width: 1500px;
 }
+
+
