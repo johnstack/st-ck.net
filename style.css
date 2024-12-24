@@ -17,7 +17,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 
 body {
-  text-align: center;
   font-family: Helvetica, "Open Sans", Arial, sans-serif; 
   text-align: left;
   background: white;
@@ -30,7 +29,6 @@ body {
   }
 
 .header { 
-
   padding-bottom: 30px;
   padding-top: 70px;    
   padding-left: 200px;
@@ -66,18 +64,16 @@ body {
     transform: perspective(0em) rotateY(20deg); 
     transform: skew(0deg, -5deg);
     padding-left: 20px;
-  }
+    }
   .header { 
-  padding-left: 0px;
-}
-  
+   padding-left: 0px;
+   }
 }
 
 
 /* --- Typography  --- */
 
 .grid h1 {
-  font-weight: 400;
   font-size: 52px;
   padding-bottom: 36px;
   color: #002118;  		
